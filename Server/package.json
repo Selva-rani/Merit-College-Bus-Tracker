@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend for Real-Time Bus Tracking and Attendance System",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Queen",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "haversine-distance": "^1.2.4",
+    "leaflet": "^1.9.4",
+    "mysql2": "^3.14.2",
+    "react-leaflet": "^5.0.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
